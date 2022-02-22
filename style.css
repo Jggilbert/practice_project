@@ -69,9 +69,13 @@ nav a:hover{
     line-height: 1.5;
 }
 
-#myDIV {
-    display: block;
+/* .hide {
+    margin-left: 0px;
 }
+
+.show {
+    margin-left: 1.5rem;
+} */
 
 button {
     padding: 1rem 3rem;
