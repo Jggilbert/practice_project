@@ -14,3 +14,14 @@
 //  }
 
 //  button.addEventListener("click", toggleFunction, true);
+
+// $( "button" ).click(function() {
+//     $( "Mydiv" ).toggle( "fast" );
+//   });
+
+
+$(document).ready(function(){
+  $( "button" ).click(function(){
+    $( "p" ).toggle( "fast");
+  });
+});

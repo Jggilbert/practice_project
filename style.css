@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* overflow: visible; */
+    overflow: hidden;
 }
 
 nav {
@@ -31,9 +31,9 @@ nav a:hover{
     color: antiquewhite;
 }
 
-.hero {
+ .hero {
     background-image: linear-gradient(210deg #f6cde2cc, #c7ffdccc);
-}
+}  
 
 .hero-container {
     display: grid;
@@ -69,13 +69,13 @@ nav a:hover{
     line-height: 1.5;
 }
 
-/* .hide {
+ .hide {
     margin-left: 0px;
 }
 
 .show {
     margin-left: 1.5rem;
-} */
+} 
 
 button {
     padding: 1rem 3rem;
@@ -110,5 +110,5 @@ button:hover {
 }
 
 body {
-    background-image: linear-gradient(#f6cde2cc, #cbf4ffcc, #c7ffdccc);
-}
+    background-image: -webkit-linear-gradient(#f6cde2cc, #cbf4ffcc, #c7ffdccc);
+ } 
